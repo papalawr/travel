@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <!-- bootstrap -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <!--  favicon stuff -->
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon.ico/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon.ico/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon.ico/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon.ico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon.ico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon.ico/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon.ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon.ico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico/favicon-16x16.png">
+  <link rel="manifest" href="favicon.ico/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon.ico/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!--  -->
+  <title>
+    Lisa's Travels
+  </title>
+</head>
+
+<div id="star-six">
+</div>
+
+
+<body>
+  <!--  -->
+  <div class="wrap">
+    <!--///////////////////Header//////////////////////////////////// -->
+    <header>
+      <div class="logo">
+        <img src="balloon.png" style="height:80px;"> Lisalovetravels
+        <!-- Photo credits: Agustín Diaz on Unsplash -->
+        <!-- Jason Leung on Unsplash -->
+        <!-- Photo by Sara Dubler on Unsplash -->
+      </div>
+
+      <div class="header">
+        <div class="left-nav">
+          <!-- <a class="nav-item" href="">About -->
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Me</a>
+                <a class="dropdown-item" href="#">You</a>
+                <a class="dropdown-item" href="#">Dupree</a>
+              </div>
+            </div>
+          <!-- </a> -->
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Countries
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">North America</a>
+              <a class="dropdown-item" href="#">Canada</a>
+              <a class="dropdown-item" href="#">Africa</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Food
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Mexican</a>
+              <a class="dropdown-item" href="#">Italian</a>
+              <a class="dropdown-item" href="#">Mediterranean</a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="right-nav">
+          <form action="/submit-search">
+            <input type="text" placeholder="search">
+          </form>
+          <!-- A search button icon -->
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+
+    </header>
+    <!--///////////////////About////////////////////////////////////// -->
+    <div class="about">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="hero.jpg" alt="First slide">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="bar.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="food.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!--///////////////////Articles//////////////////////////////////// -->
+    <div class="articles">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="col">
+              First Article
+              <img src="globe.jpg" class="article-img">
+              <h2>Escaping The System</h2>
+              <p class="article-text">
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+              </p>
+            </div>
+            <div class="col">
+              2nd Article
+              <img src="globe.jpg" class="article-img">
+              <h2>Escaping The System</h2>
+              <p class="article-text">
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            zxcxzcxzcxzcx
+            <img src="cove.jpg" class="article-img"> blah
+            <img src="hero.jpg" class="article-img"> fuck
+            <img src="night.jpg" class="article-img">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--///////////////////Articles//////////////////////////////////// -->
+  <div class="ssomething">
+
+  </div>
+
+
+  <!--///////////////////Articles//////////////////////////////////// -->
+  <div class="blah">
+
+  </div>
+
+
+  <!--///////////////////Articles//////////////////////////////////// -->
+  <div class="feed">
+  </div>
+
+
+  <!--///////////////////Articles//////////////////////////////////// -->
+  <div class="video">
+  </div>
+
+
+  <!--///////////////////Footer////////////////////////////////////// -->
+  <!--///////////////////Articles//////////////////////////////////// -->
+
+  </div>
+
+
+
+  </div>
+  <!-- end wrap -->
+  <div class="footer">
+  </div>
+
+  <div class="end">
+  </div>
+
+
+
+  <!--///////////////////Footer////////////////////////////////////// -->
+  <!--  -->
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  <!--  -->
+</body>
+
+</html>

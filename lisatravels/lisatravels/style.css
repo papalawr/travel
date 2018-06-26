@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background:black;
+  color:white;
+  font-family: 'Indie Flower', cursive;
+}
+/* nav bar */
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-nav{
+  display:flex;
+}
+
+.nav-item{
+  padding:5px 10px;
+  text-decoration:none;
+  color:white;
+  text-transform: uppercase;
+}
+
+.nav-item:hover{
+  background:tomato;
+  color:black;
+  transition: background-color 0.5s ease;
+}
